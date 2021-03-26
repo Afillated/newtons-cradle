@@ -48,14 +48,7 @@ function draw() {
   rope3.display();
   rope4.display();
   rope5.display();
-  if(bob2.body.speed >2){
-	  Matter.Body.applyForce(bob5.body,bob5.body.position,{x:50,y:-50})
-	
-  }
-  //if(bob4.body.speed >2.5){
-  //  Matter.Body.applyForce(bob1.body,bob1.body.position,{x:-50,y:50})
-	
-  //}
+  
   drawSprites();
  
 }
